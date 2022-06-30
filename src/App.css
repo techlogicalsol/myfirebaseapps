@@ -1,38 +1,121 @@
-.App {
+/*Project1*/
+
+.active{
+  background-color: #34ace0;
+  padding: 10px 5px 10px 5px;
+  border-radius: 6px;
+  color: white;
+  width: 120px;
   text-align: center;
+  display: block;
+
+}
+ 
+.inactive{
+  background-color: #333;
+  padding: 10px 5px 10px 5px;
+  border-radius: 6px;
+  color: darkgray;
+  width: 120px;
+  text-align: center;
+  display: block;
+  border: 1px solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .btn-save{
+  width: 250px;
+} */
+
+
+td, th{
+  font-size: 13px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all_btn{
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  width: 160px;
+}
+
+.viewDetail{
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.myLink{
+  display: block;
+  width: 100%;
+}
+.myLink:hover{
+  text-decoration: none;
+}
+
+.button_gp{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.menubtn{
+  width: 140px;
+  margin-right: 2px;
+  border-radius: 4px;
+
+}
+
+.searchInput {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid #34ace0;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('assets/search-solid.svg');
+    background-size: 22px;
+    background-color: #ddd;
+    background-position: 10px 15px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .searchInput:focus {
+    width: 100%;
+    outline: none;
+  }
+
+.info_view{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #ddd;
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.mylink{
+  text-decoration: none;
+}
+
+/*Project 2*/
+
+.main-title{
+  background-color: #ff6b81;
   color: white;
+  font-weight: 350;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub-title{
+  margin-top: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ff6b81;
+
 }
